@@ -1,0 +1,40 @@
+{
+  "lista": [
+    {
+      "id": 1,
+      "fabricante": "Realme",
+      "modelo": "GT 2 Pro",
+      "preco": 4200
+    },
+    {
+      "id": 2,
+      "fabricante": "Apple",
+      "modelo": "iPhone 12",
+      "preco": 4000
+    },
+    {
+      "id": 3,
+      "fabricante": "Samsung",
+      "modelo": "S22",
+      "preco": 5599
+    },
+    {
+      "fabricante": "Chevrolet",
+      "modelo": "Tracker",
+      "id": 4,
+      "preco": 125000
+    },
+    {
+      "fabricante": "Volvo",
+      "modelo": "C40",
+      "id": 5,
+      "preco": 429000
+    },
+    {
+      "fabricante": "Fiat",
+      "modelo": "Toro",
+      "id": 6,
+      "preco": 165000
+    }
+  ]
+}

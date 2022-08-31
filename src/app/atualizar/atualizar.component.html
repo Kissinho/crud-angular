@@ -1,0 +1,29 @@
+<div class="container">
+    
+    <div class="row ">
+        
+
+        <form class="form-group d-flex justify-content-center align-items-center">
+            
+            <div class="form-row">
+                <h1>Editar produto</h1>
+                <div class="col">
+            <input type="text" name="fabricante" id="fabricante" placeholder="Informe o fabricante" class="form-control" [(ngModel)]="requisicao.fabricante" >
+
+        </div>
+        <div class="col">
+            <input type="text" name="modelo" id="modelo" class="form-control" placeholder="Modelo" [(ngModel)]="requisicao.modelo" >
+          </div>
+          <div class="col">
+            <label for="preco">Preço</label>
+            <input type="number" name="preco" id="preco" class="form-control" placeholder="Preço" [(ngModel)]="requisicao.preco"  >
+          </div>
+          <div class="col">
+            <button class="btn btn-danger" (click)="cancelar()">Cancelar</button>
+            <button class="btn btn-warning" (click)="editar()">Editar</button>
+          </div>
+            </div>
+        </form>
+
+    </div>
+</div>
