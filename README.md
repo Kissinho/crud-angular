@@ -44,7 +44,7 @@ Neste projeto, foram utilizadas as seguintes tecnologias
 * TypeScript
 * SASS
 * Bootstrap
-* Google Fonts
+
 
 ## Conceitos de Angular utilizados
 
